@@ -26,5 +26,8 @@
     <ClInclude Include="permuted_multiples.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="combinatoric_selections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
