@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="combinatoric_selections.h" />
     <ClInclude Include="permuted_multiples.h" />
+    <ClInclude Include="poker_hands.h" />
     <ClInclude Include="prime_digit_replacement.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

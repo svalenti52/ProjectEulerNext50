@@ -5,6 +5,7 @@
 #include "prime_digit_replacement.h"
 #include "permuted_multiples.h"
 #include "combinatoric_selections.h"
+#include "poker_hands.h"
 
 int main()
 {
@@ -14,6 +15,7 @@ int main()
 		std::cout << "\n1. Prime Digit Replacement";
 		std::cout << "\n2. Permuted Multiples";
 		std::cout << "\n3. Combinatoric Selections";
+		std::cout << "\n4. Poker Hands";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -29,6 +31,9 @@ int main()
 			break;
 		case '3':
 			combinatoric_selections();
+			break;
+		case '4':
+			poker_hands();
 			break;
 		case 'x':
 			break;
