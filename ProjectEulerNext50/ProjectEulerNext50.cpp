@@ -7,6 +7,9 @@
 #include "combinatoric_selections.h"
 #include "poker_hands.h"
 #include "lychrel_numbers.h"
+#include "power_digit_sum.h"
+#include "sqr_rt_convergents.h"
+#include "spiral_primes.h"
 
 int main()
 {
@@ -18,6 +21,9 @@ int main()
 		std::cout << "\n3. Combinatoric Selections";
 		std::cout << "\n4. Poker Hands";
 		std::cout << "\n5. Lychrel Numbers";
+		std::cout << "\n6. Power Digit Sum";
+		std::cout << "\n7. Square Root Convergents";
+		std::cout << "\n8. Spiral Primes";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -39,6 +45,15 @@ int main()
 			break;
 		case '5':
 			lychrel_numbers();
+			break;
+		case '6':
+			power_digit_sum();
+			break;
+		case '7':
+			square_root_convergents();
+			break;
+		case '8':
+			spiral_primes();
 			break;
 		case 'x':
 			break;

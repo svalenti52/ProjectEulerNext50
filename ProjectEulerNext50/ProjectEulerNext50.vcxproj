@@ -136,7 +136,10 @@
     <ClInclude Include="lychrel_numbers.h" />
     <ClInclude Include="permuted_multiples.h" />
     <ClInclude Include="poker_hands.h" />
+    <ClInclude Include="power_digit_sum.h" />
     <ClInclude Include="prime_digit_replacement.h" />
+    <ClInclude Include="spiral_primes.h" />
+    <ClInclude Include="sqr_rt_convergents.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

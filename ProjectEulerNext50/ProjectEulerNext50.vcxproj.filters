@@ -35,5 +35,14 @@
     <ClInclude Include="lychrel_numbers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="power_digit_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqr_rt_convergents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spiral_primes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
