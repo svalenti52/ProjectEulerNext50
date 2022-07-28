@@ -6,6 +6,7 @@
 #include "permuted_multiples.h"
 #include "combinatoric_selections.h"
 #include "poker_hands.h"
+#include "lychrel_numbers.h"
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
 		std::cout << "\n2. Permuted Multiples";
 		std::cout << "\n3. Combinatoric Selections";
 		std::cout << "\n4. Poker Hands";
+		std::cout << "\n5. Lychrel Numbers";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -34,6 +36,9 @@ int main()
 			break;
 		case '4':
 			poker_hands();
+			break;
+		case '5':
+			lychrel_numbers();
 			break;
 		case 'x':
 			break;

@@ -32,5 +32,8 @@
     <ClInclude Include="poker_hands.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lychrel_numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
