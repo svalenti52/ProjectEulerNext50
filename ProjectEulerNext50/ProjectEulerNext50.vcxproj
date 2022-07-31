@@ -138,8 +138,11 @@
     <ClInclude Include="poker_hands.h" />
     <ClInclude Include="power_digit_sum.h" />
     <ClInclude Include="prime_digit_replacement.h" />
+    <ClInclude Include="prime_pair_sets.h" />
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqr_rt_convergents.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="xor_decryption.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

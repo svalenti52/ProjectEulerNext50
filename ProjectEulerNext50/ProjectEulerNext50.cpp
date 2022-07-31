@@ -10,6 +10,9 @@
 #include "power_digit_sum.h"
 #include "sqr_rt_convergents.h"
 #include "spiral_primes.h"
+#include "xor_decryption.h"
+#include "prime_pair_sets.h"
+#include "test.h"
 
 int main()
 {
@@ -24,6 +27,9 @@ int main()
 		std::cout << "\n6. Power Digit Sum";
 		std::cout << "\n7. Square Root Convergents";
 		std::cout << "\n8. Spiral Primes";
+		std::cout << "\n9. Xor Decryption";
+		std::cout << "\na. Prime Pair Sets";
+		std::cout << "\nb. Test";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -54,6 +60,15 @@ int main()
 			break;
 		case '8':
 			spiral_primes();
+			break;
+		case '9':
+			xor_decryption();
+			break;
+		case 'a':
+			prime_pair_sets();
+			break;
+		case 'b':
+			test();
 			break;
 		case 'x':
 			break;
