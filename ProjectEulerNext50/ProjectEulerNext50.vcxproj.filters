@@ -44,5 +44,11 @@
     <ClInclude Include="spiral_primes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="xor_decryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_pair_sets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
