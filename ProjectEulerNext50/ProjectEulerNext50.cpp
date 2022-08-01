@@ -12,6 +12,7 @@
 #include "spiral_primes.h"
 #include "xor_decryption.h"
 #include "prime_pair_sets.h"
+#include "cyclical_figurate.h"
 
 int main()
 {
@@ -28,6 +29,7 @@ int main()
 		std::cout << "\n8. Spiral Primes";
 		std::cout << "\n9. Xor Decryption";
 		std::cout << "\na. Prime Pair Sets";
+		std::cout << "\nb. Cyclical Figurate Numbers";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -64,6 +66,9 @@ int main()
 			break;
 		case 'a':
 			prime_pair_sets();
+			break;
+		case 'b':
+			cyclical_figurate();
 			break;
 		case 'x':
 			break;

@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="combinatoric_selections.h" />
+    <ClInclude Include="cyclical_figurate.h" />
     <ClInclude Include="lychrel_numbers.h" />
     <ClInclude Include="permuted_multiples.h" />
     <ClInclude Include="poker_hands.h" />

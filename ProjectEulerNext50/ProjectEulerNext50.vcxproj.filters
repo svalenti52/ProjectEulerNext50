@@ -50,5 +50,8 @@
     <ClInclude Include="prime_pair_sets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cyclical_figurate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
