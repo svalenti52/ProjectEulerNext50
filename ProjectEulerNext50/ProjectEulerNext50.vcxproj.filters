@@ -53,5 +53,14 @@
     <ClInclude Include="cyclical_figurate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cubic_permutations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power_digit_counts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odd_per_sqr_roots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

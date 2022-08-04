@@ -13,6 +13,9 @@
 #include "xor_decryption.h"
 #include "prime_pair_sets.h"
 #include "cyclical_figurate.h"
+#include "cubic_permutations.h"
+#include "power_digit_counts.h"
+#include "odd_per_sqr_roots.h"
 
 int main()
 {
@@ -30,6 +33,9 @@ int main()
 		std::cout << "\n9. Xor Decryption";
 		std::cout << "\na. Prime Pair Sets";
 		std::cout << "\nb. Cyclical Figurate Numbers";
+		std::cout << "\nc. Cubic Permutations";
+		std::cout << "\nd. Power Digit Counts";
+		std::cout << "\ne. Odd Period Square Roots";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -69,6 +75,15 @@ int main()
 			break;
 		case 'b':
 			cyclical_figurate();
+			break;
+		case 'c':
+			cubic_permutations();
+			break;
+		case 'd':
+			power_digit_counts();
+			break;
+		case 'e':
+			odd_per_sqr_roots();
 			break;
 		case 'x':
 			break;
