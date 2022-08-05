@@ -16,6 +16,7 @@
 #include "cubic_permutations.h"
 #include "power_digit_counts.h"
 #include "odd_per_sqr_roots.h"
+#include "convergent_e.h"
 
 int main()
 {
@@ -36,6 +37,7 @@ int main()
 		std::cout << "\nc. Cubic Permutations";
 		std::cout << "\nd. Power Digit Counts";
 		std::cout << "\ne. Odd Period Square Roots";
+		std::cout << "\nf. Covergents of e";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -84,6 +86,9 @@ int main()
 			break;
 		case 'e':
 			odd_per_sqr_roots();
+			break;
+		case 'f':
+			convergent_e();
 			break;
 		case 'x':
 			break;
