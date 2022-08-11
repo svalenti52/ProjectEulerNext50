@@ -136,6 +136,7 @@
     <ClInclude Include="convergent_e.h" />
     <ClInclude Include="cubic_permutations.h" />
     <ClInclude Include="cyclical_figurate.h" />
+    <ClInclude Include="diophantine.h" />
     <ClInclude Include="lychrel_numbers.h" />
     <ClInclude Include="odd_per_sqr_roots.h" />
     <ClInclude Include="permuted_multiples.h" />
