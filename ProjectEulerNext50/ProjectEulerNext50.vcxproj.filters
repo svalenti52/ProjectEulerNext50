@@ -68,5 +68,26 @@
     <ClInclude Include="diophantine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="max_path_sum_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_5gon_ring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="totient_max.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="totient_permutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ordered_fractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="counting_fractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="counting_fractions_range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

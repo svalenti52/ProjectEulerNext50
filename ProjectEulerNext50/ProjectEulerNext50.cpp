@@ -18,6 +18,13 @@
 #include "odd_per_sqr_roots.h"
 #include "convergent_e.h"
 #include "diophantine.h"
+#include "max_path_sum_2.h"
+#include "magic_5gon_ring.h"
+#include "totient_max.h"
+#include "totient_permutation.h"
+#include "ordered_fractions.h"
+#include "counting_fractions.h"
+#include "counting_fractions_range.h"
 
 int main()
 {
@@ -40,6 +47,13 @@ int main()
 		std::cout << "\ne. Odd Period Square Roots";
 		std::cout << "\nf. Convergents of e";
 		std::cout << "\ng. Diophantine";
+		std::cout << "\nh. Max Path Triangle 2";
+		std::cout << "\ni. Magic 5-gon Ring";
+		std::cout << "\nj. Totient Maximum";
+		std::cout << "\nk. Totient Permutation";
+		std::cout << "\nl. Ordered Fractions";
+		std::cout << "\nm. Counting Fractions";
+		std::cout << "\nn. Counting Fractions Range";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -94,6 +108,27 @@ int main()
 			break;
 		case 'g':
 			diophantine1();
+			break;
+		case 'h':
+			max_path_sum_2();
+			break;
+		case 'i':
+			magic_5gon_ring();
+			break;
+		case 'j':
+			totient_max();
+			break;
+		case 'k':
+			totient_permutation();
+			break;
+		case 'l':
+			ordered_fractions();
+			break;
+		case 'm':
+			counting_fractions();
+			break;
+		case 'n':
+			counting_fractions_range();
 			break;
 		case 'x':
 			break;

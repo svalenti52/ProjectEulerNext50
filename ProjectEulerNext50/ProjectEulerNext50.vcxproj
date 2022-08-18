@@ -104,6 +104,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../../boost_1_79_0/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,11 +136,16 @@
   <ItemGroup>
     <ClInclude Include="combinatoric_selections.h" />
     <ClInclude Include="convergent_e.h" />
+    <ClInclude Include="counting_fractions.h" />
+    <ClInclude Include="counting_fractions_range.h" />
     <ClInclude Include="cubic_permutations.h" />
     <ClInclude Include="cyclical_figurate.h" />
     <ClInclude Include="diophantine.h" />
     <ClInclude Include="lychrel_numbers.h" />
+    <ClInclude Include="magic_5gon_ring.h" />
+    <ClInclude Include="max_path_sum_2.h" />
     <ClInclude Include="odd_per_sqr_roots.h" />
+    <ClInclude Include="ordered_fractions.h" />
     <ClInclude Include="permuted_multiples.h" />
     <ClInclude Include="poker_hands.h" />
     <ClInclude Include="power_digit_counts.h" />
@@ -147,6 +154,8 @@
     <ClInclude Include="prime_pair_sets.h" />
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqr_rt_convergents.h" />
+    <ClInclude Include="totient_max.h" />
+    <ClInclude Include="totient_permutation.h" />
     <ClInclude Include="xor_decryption.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
