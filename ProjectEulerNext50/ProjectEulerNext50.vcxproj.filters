@@ -89,5 +89,11 @@
     <ClInclude Include="counting_fractions_range.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="digit_factorial_chains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="single_int_right_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -140,6 +140,7 @@
     <ClInclude Include="counting_fractions_range.h" />
     <ClInclude Include="cubic_permutations.h" />
     <ClInclude Include="cyclical_figurate.h" />
+    <ClInclude Include="digit_factorial_chains.h" />
     <ClInclude Include="diophantine.h" />
     <ClInclude Include="lychrel_numbers.h" />
     <ClInclude Include="magic_5gon_ring.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="power_digit_sum.h" />
     <ClInclude Include="prime_digit_replacement.h" />
     <ClInclude Include="prime_pair_sets.h" />
+    <ClInclude Include="single_int_right_triangles.h" />
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqr_rt_convergents.h" />
     <ClInclude Include="totient_max.h" />

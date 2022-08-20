@@ -25,6 +25,8 @@
 #include "ordered_fractions.h"
 #include "counting_fractions.h"
 #include "counting_fractions_range.h"
+#include "digit_factorial_chains.h"
+#include "single_int_right_triangles.h"
 
 int main()
 {
@@ -54,6 +56,8 @@ int main()
 		std::cout << "\nl. Ordered Fractions";
 		std::cout << "\nm. Counting Fractions";
 		std::cout << "\nn. Counting Fractions Range";
+		std::cout << "\no. Digit Factorial Chains";
+		std::cout << "\np. Single Integral Right Triangles";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -129,6 +133,12 @@ int main()
 			break;
 		case 'n':
 			counting_fractions_range();
+			break;
+		case 'o':
+			digit_factorial_chains();
+			break;
+		case 'p':
+			single_int_right_triangles1();
 			break;
 		case 'x':
 			break;
