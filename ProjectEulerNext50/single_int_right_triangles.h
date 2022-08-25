@@ -54,8 +54,9 @@ void single_int_right_triangles1()
 {
 	const u64 ub = 1'500'000; //1'500'000;
 	vector<u64> L(ub + 1, 0); // one extra since size of squares is ub+1 so index lines up with integers
+	const u64 sqrt_ub = std::sqrt(ub);
 
-	for (u64 m = 2; m < ub/2; ++m)
+	for (u64 m = 2; m < sqrt_ub; ++m)
 	{
 		u64 n = 1;
 		if ((m & 1) == 1) n = 2;

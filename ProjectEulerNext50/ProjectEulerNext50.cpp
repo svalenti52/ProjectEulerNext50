@@ -27,6 +27,7 @@
 #include "counting_fractions_range.h"
 #include "digit_factorial_chains.h"
 #include "single_int_right_triangles.h"
+#include "counting_summations.h"
 
 int main()
 {
@@ -58,6 +59,7 @@ int main()
 		std::cout << "\nn. Counting Fractions Range";
 		std::cout << "\no. Digit Factorial Chains";
 		std::cout << "\np. Single Integral Right Triangles";
+		std::cout << "\nq. Counting Summations";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -139,6 +141,10 @@ int main()
 			break;
 		case 'p':
 			single_int_right_triangles1();
+			break;
+		case 'q':
+			//findCombinations(100);
+			counting_summations();
 			break;
 		case 'x':
 			break;
