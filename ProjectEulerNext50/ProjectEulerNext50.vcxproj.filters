@@ -98,5 +98,11 @@
     <ClInclude Include="counting_summations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="prime_summations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coin_partitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

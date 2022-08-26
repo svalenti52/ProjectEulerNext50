@@ -11,6 +11,8 @@ using s64 = int64_t;
 using VS = vector<s64>;
 using VVS = vector<vector<s64>>;
 
+static const s64 target_sum = 110;
+
 void show_extended_vector(VS& vs, s64 target_diff)
 {
 	for (s64 s : vs)
@@ -20,9 +22,8 @@ void show_extended_vector(VS& vs, s64 target_diff)
 
 void count_by_index(int index, VS& vs, s64& count)
 {
-	const s64 target_sum = 100;
 	s64 target_diff = 0; // this is at vsize, i.e., outside the vector
-	s64 vsize = vs.size();
+	s64 vsize = size(vs);
 	auto endvs_it = end(vs) - 1;
 
 	if (index == vsize - 1) // last one in vector
@@ -57,12 +58,11 @@ void count_by_index(int index, VS& vs, s64& count)
 
 void counting_summations()
 {
-	VS comb(99, 1);
 	s64 count = 0;
 
 	StopWatch s;
 
-	for (int ix = 1; ix < 100; ++ix)
+	for (int ix = 1; ix < target_sum; ++ix)
 	{
 		VS comb(ix, 1);
 		count_by_index(0, comb, count);
@@ -135,4 +135,54 @@ void findCombinations(int n)
 	findCombinationsUtil(arr, 0, n, n, count);
 
 	cout << "For total number of combinations of numbers adding to 100 (sans 100) = " << count - 1 << '\n';
+}
+
+///////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+void combos() {
+
+	int numbers[99], results[101] = { 1 };
+
+	for (int i = 0; i < 99; i++) {
+		numbers[i] = i + 1;
+	}
+
+	for (int i = 0; i < 99; i++) {
+		for (int j = numbers[i]; j <= 100; j++) {
+			results[j] += results[j - numbers[i]];
+		}
+	}
+
+	printf("%d\n", results[100]);
+
+	for (int ix = 0; ix < 101; ++ix)
+		cout << results[ix] << ' ';
+	cout << '\n';
+
+}
+
+void combos1() {
+
+	int target_sum = 100;
+	VI numbers(target_sum - 1, 0);
+	iota(begin(numbers), end(numbers), 1);
+
+	VI results(target_sum + 1, 0);
+	results[0] = 1;
+
+	for (int i : numbers)
+	{
+		for (int j = i; j <= target_sum; j++) {
+			results[j] += results[j - i];
+		}
+	}
+
+	printf("%d\n", results[target_sum]);
+
+	for (int i : results)
+		cout << i << ' ';
+	cout << '\n';
+
 }

@@ -28,6 +28,8 @@
 #include "digit_factorial_chains.h"
 #include "single_int_right_triangles.h"
 #include "counting_summations.h"
+#include "prime_summations.h"
+#include "coin_partitions.h"
 
 int main()
 {
@@ -60,6 +62,8 @@ int main()
 		std::cout << "\no. Digit Factorial Chains";
 		std::cout << "\np. Single Integral Right Triangles";
 		std::cout << "\nq. Counting Summations";
+		std::cout << "\nr. Prime Summations";
+		std::cout << "\ns. Coin Partitions";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -144,7 +148,13 @@ int main()
 			break;
 		case 'q':
 			//findCombinations(100);
-			counting_summations();
+			combos1();
+			break;
+		case 'r':
+			prime_summations();
+			break;
+		case 's':
+			coin_partitions();
 			break;
 		case 'x':
 			break;

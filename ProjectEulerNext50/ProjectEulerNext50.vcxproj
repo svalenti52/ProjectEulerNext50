@@ -134,6 +134,7 @@
     <ClCompile Include="ProjectEulerNext50.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coin_partitions.h" />
     <ClInclude Include="combinatoric_selections.h" />
     <ClInclude Include="convergent_e.h" />
     <ClInclude Include="counting_fractions.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="power_digit_sum.h" />
     <ClInclude Include="prime_digit_replacement.h" />
     <ClInclude Include="prime_pair_sets.h" />
+    <ClInclude Include="prime_summations.h" />
     <ClInclude Include="single_int_right_triangles.h" />
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqr_rt_convergents.h" />
