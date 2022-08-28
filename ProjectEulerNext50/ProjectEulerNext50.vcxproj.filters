@@ -104,5 +104,8 @@
     <ClInclude Include="coin_partitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="passcode_derivation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

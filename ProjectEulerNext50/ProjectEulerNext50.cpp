@@ -30,6 +30,7 @@
 #include "counting_summations.h"
 #include "prime_summations.h"
 #include "coin_partitions.h"
+#include "passcode_derivation.h"
 
 int main()
 {
@@ -64,6 +65,7 @@ int main()
 		std::cout << "\nq. Counting Summations";
 		std::cout << "\nr. Prime Summations";
 		std::cout << "\ns. Coin Partitions";
+		std::cout << "\nt. Passcode Derivation";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -155,6 +157,9 @@ int main()
 			break;
 		case 's':
 			coin_partitions();
+			break;
+		case 't':
+			passcode_derivation();
 			break;
 		case 'x':
 			break;
