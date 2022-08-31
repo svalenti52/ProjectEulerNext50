@@ -107,5 +107,11 @@
     <ClInclude Include="passcode_derivation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="su_doku.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqrt_digital_expansion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

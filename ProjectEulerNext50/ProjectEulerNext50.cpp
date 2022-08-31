@@ -31,6 +31,8 @@
 #include "prime_summations.h"
 #include "coin_partitions.h"
 #include "passcode_derivation.h"
+#include "su_doku.h"
+#include "sqrt_digital_expansion.h"
 
 int main()
 {
@@ -66,6 +68,8 @@ int main()
 		std::cout << "\nr. Prime Summations";
 		std::cout << "\ns. Coin Partitions";
 		std::cout << "\nt. Passcode Derivation";
+		std::cout << "\nu. Su Doku";
+		std::cout << "\nv. Square Root Digital Expansion";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -160,6 +164,12 @@ int main()
 			break;
 		case 't':
 			passcode_derivation();
+			break;
+		case 'u':
+			su_doku();
+			break;
+		case 'v':
+			sqrt_digital_expansion();
 			break;
 		case 'x':
 			break;

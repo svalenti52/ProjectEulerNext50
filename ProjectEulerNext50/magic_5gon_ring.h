@@ -39,7 +39,7 @@ bool legitimate(const VI& vi)
 	return legit;
 }
 
-string& construct_5gon_rep(const VI& vi)
+string construct_5gon_rep(const VI& vi)
 {
 	string a = to_string(vi[0]) + to_string(vi[5]) + to_string(vi[6]);
 	string b = to_string(vi[1]) + to_string(vi[6]) + to_string(vi[7]);
