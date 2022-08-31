@@ -16,8 +16,8 @@ void sqrt_digital_expansion()
 
 	for (int ix = 1; ix <= 100; ++ix)
 	{
-		cpp_dec_float_128 sqr_number = static_cast<cpp_dec_float_128>(ix);
-		cpp_dec_float_128 digit_conveyer_belt = sqrt(sqr_number);
+		cpp_dec_float_100 sqr_number = static_cast<cpp_dec_float_100>(ix);
+		cpp_dec_float_100 digit_conveyer_belt = sqrt(sqr_number);
 		if ((digit_conveyer_belt - floor(digit_conveyer_belt)) < 1e-10) continue;
 
 		int digital_sum = 0;
@@ -28,7 +28,7 @@ void sqrt_digital_expansion()
 		cout << '\n' << ix << ". ";
 		for (int jx = 0; jx < 100; ++jx)
 		{
-			cpp_dec_float_128 promoted_integer = floor(digit_conveyer_belt);
+			cpp_dec_float_100 promoted_integer = floor(digit_conveyer_belt);
 			digital_sum += static_cast<int>(promoted_integer);
 			digit_conveyer_belt -= promoted_integer;
 			digit_conveyer_belt *= 10;
