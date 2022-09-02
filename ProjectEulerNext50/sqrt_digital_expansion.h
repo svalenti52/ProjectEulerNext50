@@ -10,9 +10,7 @@ using namespace boost::multiprecision;
 
 void sqrt_digital_expansion()
 {
-	vector<int> digits;
-
-	int tsum = 0;
+	vector<int> digital_sums;
 
 	for (int ix = 1; ix <= 100; ++ix)
 	{
@@ -35,10 +33,10 @@ void sqrt_digital_expansion()
 		}
 		cout << digital_sum;
 
-		digits.emplace_back(digital_sum);
+		digital_sums.emplace_back(digital_sum);
 	}
 
-	int tot_digital_sum = accumulate(begin(digits), end(digits), 0);
+	int tot_digital_sum = accumulate(begin(digital_sums), end(digital_sums), 0);
 
 	cout << "\n\nTotal Digital Sum = " << tot_digital_sum << '\n';
 }

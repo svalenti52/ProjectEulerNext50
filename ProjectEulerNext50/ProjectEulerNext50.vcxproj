@@ -150,6 +150,8 @@
     <ClInclude Include="odd_per_sqr_roots.h" />
     <ClInclude Include="ordered_fractions.h" />
     <ClInclude Include="passcode_derivation.h" />
+    <ClInclude Include="path_sum_2_way.h" />
+    <ClInclude Include="path_sum_3_way.h" />
     <ClInclude Include="permuted_multiples.h" />
     <ClInclude Include="poker_hands.h" />
     <ClInclude Include="power_digit_counts.h" />

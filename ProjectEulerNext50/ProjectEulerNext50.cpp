@@ -33,6 +33,8 @@
 #include "passcode_derivation.h"
 #include "su_doku.h"
 #include "sqrt_digital_expansion.h"
+#include "path_sum_2_way.h"
+#include "path_sum_3_way.h"
 
 int main()
 {
@@ -70,6 +72,8 @@ int main()
 		std::cout << "\nt. Passcode Derivation";
 		std::cout << "\nu. Su Doku";
 		std::cout << "\nv. Square Root Digital Expansion";
+		std::cout << "\nw. Path Sum 2-Way";
+		std::cout << "\ny. Path Sum 3-Way";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -170,6 +174,12 @@ int main()
 			break;
 		case 'v':
 			sqrt_digital_expansion();
+			break;
+		case 'w':
+			path_sum_2_way();
+			break;
+		case 'y':
+			path_sum_3_way();
 			break;
 		case 'x':
 			break;
