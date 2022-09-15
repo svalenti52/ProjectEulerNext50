@@ -95,8 +95,8 @@ void path_sum_3_way()
 			path_matrix(rx, jx) = strtol(cols[jx].c_str(), nullptr, 10);
 	}
 
-	for (int tx = 78; tx >= 0; --tx)
-		cost_from_right(tx, path_matrix);
+	for (int cx = 78; cx >= 0; --cx)
+		cost_from_right(cx, path_matrix);
 
 	M_80_x_1 zero_col = path_matrix.col(0);
 
