@@ -36,6 +36,7 @@
 #include "path_sum_2_way.h"
 #include "path_sum_3_way.h"
 #include "path_sum_4_way.h"
+#include "monopoly_odds.h"
 
 int main()
 {
@@ -76,6 +77,7 @@ int main()
 		std::cout << "\nw. Path Sum 2-Way";
 		std::cout << "\ny. Path Sum 3-Way";
 		std::cout << "\nz. Path Sum 4-Way";
+		std::cout << "\nA. Monopoly Odds";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -185,6 +187,9 @@ int main()
 			break;
 		case 'z':
 			path_sum_4_way1();
+			break;
+		case 'A':
+			monopoly_odds();
 			break;
 		case 'x':
 			break;

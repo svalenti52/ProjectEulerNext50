@@ -122,5 +122,8 @@
     <ClInclude Include="path_sum_4_way.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="monopoly_odds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -14,34 +14,6 @@ using VST = vector<string>;
 
 const int billion = 1'000'000'000;
 
-struct VM_80x80
-{
-	vector<vector<bool>> visited;
-	VM_80x80()
-	{
-		vector<bool> visit;
-		for (int ix = 0; ix < 80; ++ix)
-			visit.emplace_back(false);
-		for (int ix = 0; ix < 80; ++ix)
-			visited.emplace_back(visit);
-	}
-
-	void set_boundary(int tot)
-	{
-		for (int rx = 0; rx <= tot; ++rx)
-			for (int cx = tot - rx; cx >= 0; --cx)
-				visited[rx][cx] = true;
-	}
-
-	~VM_80x80()
-	{
-		for (auto vi : visited)
-			vi.clear();
-		visited.clear();
-	}
-};
-
-
 struct CM_80x80
 {
 	vector<vector<int>> mat_;

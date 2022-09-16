@@ -147,6 +147,7 @@
     <ClInclude Include="lychrel_numbers.h" />
     <ClInclude Include="magic_5gon_ring.h" />
     <ClInclude Include="max_path_sum_2.h" />
+    <ClInclude Include="monopoly_odds.h" />
     <ClInclude Include="odd_per_sqr_roots.h" />
     <ClInclude Include="ordered_fractions.h" />
     <ClInclude Include="passcode_derivation.h" />
