@@ -139,6 +139,7 @@
     <ClInclude Include="convergent_e.h" />
     <ClInclude Include="counting_fractions.h" />
     <ClInclude Include="counting_fractions_range.h" />
+    <ClInclude Include="counting_rect.h" />
     <ClInclude Include="counting_summations.h" />
     <ClInclude Include="cubic_permutations.h" />
     <ClInclude Include="cyclical_figurate.h" />
