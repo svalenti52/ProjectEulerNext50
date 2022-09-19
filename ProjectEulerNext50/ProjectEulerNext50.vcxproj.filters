@@ -128,5 +128,8 @@
     <ClInclude Include="counting_rect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cuboid_route.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
