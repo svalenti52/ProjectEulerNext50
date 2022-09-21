@@ -162,7 +162,9 @@
     <ClInclude Include="power_digit_sum.h" />
     <ClInclude Include="prime_digit_replacement.h" />
     <ClInclude Include="prime_pair_sets.h" />
+    <ClInclude Include="prime_power_triples.h" />
     <ClInclude Include="prime_summations.h" />
+    <ClInclude Include="product_sum_numbers.h" />
     <ClInclude Include="single_int_right_triangles.h" />
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqrt_digital_expansion.h" />

@@ -39,6 +39,8 @@
 #include "monopoly_odds.h"
 #include "counting_rect.h"
 #include "cuboid_route.h"
+#include "prime_power_triples.h"
+#include "product_sum_numbers.h"
 
 int main()
 {
@@ -82,6 +84,8 @@ int main()
 		std::cout << "\nA. Monopoly Odds";
 		std::cout << "\nB. Counting Rectangles";
 		std::cout << "\nC. Cuboid Route";
+		std::cout << "\nD. Prime Power Triples";
+		std::cout << "\nE. Product Sum Numbers";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -200,6 +204,12 @@ int main()
 			break;
 		case 'C':
 			cuboid_route();
+			break;
+		case 'D':
+			prime_power_triples();
+			break;
+		case 'E':
+			product_sum_numbers();
 			break;
 		case 'x':
 			break;
