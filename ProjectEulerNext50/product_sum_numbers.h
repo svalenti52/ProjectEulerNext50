@@ -61,7 +61,7 @@ void prep_n_set(vector<int>& nss, vector<int>& m_set, int index)
 				m_set.pop_back();
 			}
 	}
-	else // size 3 - 6 inclusive
+	else // size 3 - 13 inclusive
 	{
 		for (int ix = 2; ix <= n_set_largest_size; ++ix)
 		{
