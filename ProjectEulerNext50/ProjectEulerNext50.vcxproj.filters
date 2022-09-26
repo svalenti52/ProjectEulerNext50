@@ -137,5 +137,11 @@
     <ClInclude Include="product_sum_numbers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="roman_numerals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cube_digit_pairs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

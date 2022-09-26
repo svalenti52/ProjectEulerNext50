@@ -41,6 +41,8 @@
 #include "cuboid_route.h"
 #include "prime_power_triples.h"
 #include "product_sum_numbers.h"
+#include "roman_numerals.h"
+#include "cube_digit_pairs.h"
 
 int main()
 {
@@ -86,6 +88,8 @@ int main()
 		std::cout << "\nC. Cuboid Route";
 		std::cout << "\nD. Prime Power Triples";
 		std::cout << "\nE. Product Sum Numbers";
+		std::cout << "\nF. Roman Numerals";
+		std::cout << "\nG. Cube Digit Pairs";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -210,6 +214,12 @@ int main()
 			break;
 		case 'E':
 			product_sum_numbers();
+			break;
+		case 'F':
+			roman_numerals();
+			break;
+		case 'G':
+			cube_digit_pairs();
 			break;
 		case 'x':
 			break;

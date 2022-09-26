@@ -141,6 +141,7 @@
     <ClInclude Include="counting_fractions_range.h" />
     <ClInclude Include="counting_rect.h" />
     <ClInclude Include="counting_summations.h" />
+    <ClInclude Include="cube_digit_pairs.h" />
     <ClInclude Include="cubic_permutations.h" />
     <ClInclude Include="cuboid_route.h" />
     <ClInclude Include="cyclical_figurate.h" />
@@ -165,6 +166,7 @@
     <ClInclude Include="prime_power_triples.h" />
     <ClInclude Include="prime_summations.h" />
     <ClInclude Include="product_sum_numbers.h" />
+    <ClInclude Include="roman_numerals.h" />
     <ClInclude Include="single_int_right_triangles.h" />
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqrt_digital_expansion.h" />
