@@ -143,5 +143,8 @@
     <ClInclude Include="cube_digit_pairs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="right_triangles_int_coord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

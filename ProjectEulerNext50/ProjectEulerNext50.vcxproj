@@ -166,6 +166,7 @@
     <ClInclude Include="prime_power_triples.h" />
     <ClInclude Include="prime_summations.h" />
     <ClInclude Include="product_sum_numbers.h" />
+    <ClInclude Include="right_triangles_int_coord.h" />
     <ClInclude Include="roman_numerals.h" />
     <ClInclude Include="single_int_right_triangles.h" />
     <ClInclude Include="spiral_primes.h" />

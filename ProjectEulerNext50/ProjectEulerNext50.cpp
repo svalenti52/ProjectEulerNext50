@@ -43,6 +43,7 @@
 #include "product_sum_numbers.h"
 #include "roman_numerals.h"
 #include "cube_digit_pairs.h"
+#include "right_triangles_int_coord.h"
 
 int main()
 {
@@ -90,6 +91,7 @@ int main()
 		std::cout << "\nE. Product Sum Numbers";
 		std::cout << "\nF. Roman Numerals";
 		std::cout << "\nG. Cube Digit Pairs";
+		std::cout << "\nH. Right Triangles with Integer Coordinates";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -220,6 +222,9 @@ int main()
 			break;
 		case 'G':
 			cube_digit_pairs();
+			break;
+		case 'H':
+			right_triangles_int_coord();
 			break;
 		case 'x':
 			break;
