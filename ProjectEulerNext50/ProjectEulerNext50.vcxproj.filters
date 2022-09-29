@@ -146,5 +146,11 @@
     <ClInclude Include="right_triangles_int_coord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="square_digit_chains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arithmetic_expr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

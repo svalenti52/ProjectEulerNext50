@@ -134,6 +134,7 @@
     <ClCompile Include="ProjectEulerNext50.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arithmetic_expr.h" />
     <ClInclude Include="coin_partitions.h" />
     <ClInclude Include="combinatoric_selections.h" />
     <ClInclude Include="convergent_e.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="spiral_primes.h" />
     <ClInclude Include="sqrt_digital_expansion.h" />
     <ClInclude Include="sqr_rt_convergents.h" />
+    <ClInclude Include="square_digit_chains.h" />
     <ClInclude Include="su_doku.h" />
     <ClInclude Include="totient_max.h" />
     <ClInclude Include="totient_permutation.h" />
