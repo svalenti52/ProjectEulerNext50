@@ -46,6 +46,7 @@
 #include "right_triangles_int_coord.h"
 #include "square_digit_chains.h"
 #include "arithmetic_expr.h"
+#include "almost_eq_triangles.h"
 
 int main()
 {
@@ -96,6 +97,7 @@ int main()
 		std::cout << "\nH. Right Triangles with Integer Coordinates";
 		std::cout << "\nI. Square Digit Chains";
 		std::cout << "\nJ. Arithmetic Expressions";
+		std::cout << "\nK. Almost Equilateral Triangles";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -235,6 +237,9 @@ int main()
 			break;
 		case 'J':
 			arithmetic_expr();
+			break;
+		case 'K':
+			almost_eq_triangles();
 			break;
 		case 'x':
 			break;

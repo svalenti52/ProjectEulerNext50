@@ -134,6 +134,7 @@
     <ClCompile Include="ProjectEulerNext50.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="almost_eq_triangles.h" />
     <ClInclude Include="arithmetic_expr.h" />
     <ClInclude Include="coin_partitions.h" />
     <ClInclude Include="combinatoric_selections.h" />

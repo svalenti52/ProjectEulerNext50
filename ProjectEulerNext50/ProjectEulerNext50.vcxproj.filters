@@ -152,5 +152,8 @@
     <ClInclude Include="arithmetic_expr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="almost_eq_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
