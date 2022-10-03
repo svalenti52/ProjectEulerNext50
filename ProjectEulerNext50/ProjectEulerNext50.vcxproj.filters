@@ -155,5 +155,17 @@
     <ClInclude Include="almost_eq_triangles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="amicable_chains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="large_non_mersenne_prime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anagramic_squares.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="largest_exp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

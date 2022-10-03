@@ -135,6 +135,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="almost_eq_triangles.h" />
+    <ClInclude Include="amicable_chains.h" />
+    <ClInclude Include="anagramic_squares.h" />
     <ClInclude Include="arithmetic_expr.h" />
     <ClInclude Include="coin_partitions.h" />
     <ClInclude Include="combinatoric_selections.h" />
@@ -149,6 +151,8 @@
     <ClInclude Include="cyclical_figurate.h" />
     <ClInclude Include="digit_factorial_chains.h" />
     <ClInclude Include="diophantine.h" />
+    <ClInclude Include="largest_exp.h" />
+    <ClInclude Include="large_non_mersenne_prime.h" />
     <ClInclude Include="lychrel_numbers.h" />
     <ClInclude Include="magic_5gon_ring.h" />
     <ClInclude Include="max_path_sum_2.h" />

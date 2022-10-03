@@ -47,6 +47,10 @@
 #include "square_digit_chains.h"
 #include "arithmetic_expr.h"
 #include "almost_eq_triangles.h"
+#include "amicable_chains.h"
+#include "large_non_mersenne_prime.h"
+#include "anagramic_squares.h"
+#include "largest_exp.h"
 
 int main()
 {
@@ -98,6 +102,10 @@ int main()
 		std::cout << "\nI. Square Digit Chains";
 		std::cout << "\nJ. Arithmetic Expressions";
 		std::cout << "\nK. Almost Equilateral Triangles";
+		std::cout << "\nL. Amicable Chains";
+		std::cout << "\nM. Large Non-Mersenne Prime";
+		std::cout << "\nN. Anagramic Squares";
+		std::cout << "\nO. Largest Exponent";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -240,6 +248,18 @@ int main()
 			break;
 		case 'K':
 			almost_eq_triangles();
+			break;
+		case 'L':
+			amicable_chains();
+			break;
+		case 'M':
+			large_non_mersenne_prime();
+			break;
+		case 'N':
+			anagramic_squares();
+			break;
+		case 'O':
+			largest_exp();
 			break;
 		case 'x':
 			break;
