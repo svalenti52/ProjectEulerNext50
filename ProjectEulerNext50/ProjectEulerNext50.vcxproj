@@ -138,6 +138,7 @@
     <ClInclude Include="amicable_chains.h" />
     <ClInclude Include="anagramic_squares.h" />
     <ClInclude Include="arithmetic_expr.h" />
+    <ClInclude Include="arranged_prob.h" />
     <ClInclude Include="coin_partitions.h" />
     <ClInclude Include="combinatoric_selections.h" />
     <ClInclude Include="convergent_e.h" />

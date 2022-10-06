@@ -51,6 +51,7 @@
 #include "large_non_mersenne_prime.h"
 #include "anagramic_squares.h"
 #include "largest_exp.h"
+#include "arranged_prob.h"
 
 int main()
 {
@@ -106,6 +107,7 @@ int main()
 		std::cout << "\nM. Large Non-Mersenne Prime";
 		std::cout << "\nN. Anagramic Squares";
 		std::cout << "\nO. Largest Exponent";
+		std::cout << "\nP. Arranged Probability";
 		std::cout << "\nx. Exit\n";
 
 		std::cin >> c;
@@ -260,6 +262,9 @@ int main()
 			break;
 		case 'O':
 			largest_exp();
+			break;
+		case 'P':
+			arranged_prob();
 			break;
 		case 'x':
 			break;

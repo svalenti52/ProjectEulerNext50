@@ -167,5 +167,8 @@
     <ClInclude Include="largest_exp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="arranged_prob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
